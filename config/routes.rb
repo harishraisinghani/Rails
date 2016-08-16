@@ -8,5 +8,5 @@ LighthouseForum::Application.routes.draw do
   # patch 'posts/:id',    to: 'posts#update'
 
   resources :posts #this replaces all of the commented code above
-  
+  root to: 'posts#index'
 end
